@@ -15,6 +15,8 @@
 		D3AD98861E08BF79009D9A4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3AD98851E08BF79009D9A4C /* Assets.xcassets */; };
 		D3AD98891E08BF79009D9A4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3AD98871E08BF79009D9A4C /* LaunchScreen.storyboard */; };
 		D3AD98941E08BF79009D9A4C /* Assignment4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AD98931E08BF79009D9A4C /* Assignment4UITests.swift */; };
+		D3AD98A61E08CD97009D9A4C /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AD98A51E08CD97009D9A4C /* WebService.swift */; };
+		D3AD98A81E08D0C1009D9A4C /* CourseCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AD98A71E08D0C1009D9A4C /* CourseCategory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		D3AD988F1E08BF79009D9A4C /* Assignment4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Assignment4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3AD98931E08BF79009D9A4C /* Assignment4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment4UITests.swift; sourceTree = "<group>"; };
 		D3AD98951E08BF79009D9A4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3AD98A51E08CD97009D9A4C /* WebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		D3AD98A71E08D0C1009D9A4C /* CourseCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseCategory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +144,7 @@
 		D3AD989F1E08CAE0009D9A4C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D3AD98A71E08D0C1009D9A4C /* CourseCategory.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -147,6 +152,7 @@
 		D3AD98A01E08CAE5009D9A4C /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				D3AD98A51E08CD97009D9A4C /* WebService.swift */,
 			);
 			name = Service;
 			sourceTree = "<group>";
@@ -387,7 +393,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3AD98A61E08CD97009D9A4C /* WebService.swift in Sources */,
 				D3AD98811E08BF79009D9A4C /* ViewController.swift in Sources */,
+				D3AD98A81E08D0C1009D9A4C /* CourseCategory.swift in Sources */,
 				D3AD987F1E08BF79009D9A4C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
