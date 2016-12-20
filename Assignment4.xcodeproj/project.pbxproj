@@ -109,12 +109,12 @@
 		D3AD987D1E08BF79009D9A4C /* Assignment4 */ = {
 			isa = PBXGroup;
 			children = (
-				D3AD987E1E08BF79009D9A4C /* AppDelegate.swift */,
-				D3AD98801E08BF79009D9A4C /* ViewController.swift */,
-				D3AD98821E08BF79009D9A4C /* Main.storyboard */,
-				D3AD98851E08BF79009D9A4C /* Assets.xcassets */,
-				D3AD98871E08BF79009D9A4C /* LaunchScreen.storyboard */,
-				D3AD988A1E08BF79009D9A4C /* Info.plist */,
+				D3AD98A41E08CC5D009D9A4C /* Controller */,
+				D3AD98A31E08CC4C009D9A4C /* View */,
+				D3AD98A11E08CB05009D9A4C /* Resource */,
+				D3AD98A01E08CAE5009D9A4C /* Service */,
+				D3AD989F1E08CAE0009D9A4C /* Model */,
+				D3AD989E1E08CACD009D9A4C /* Application */,
 			);
 			path = Assignment4;
 			sourceTree = "<group>";
@@ -126,6 +126,62 @@
 				D3AD98951E08BF79009D9A4C /* Info.plist */,
 			);
 			path = Assignment4UITests;
+			sourceTree = "<group>";
+		};
+		D3AD989E1E08CACD009D9A4C /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				D3AD987E1E08BF79009D9A4C /* AppDelegate.swift */,
+				D3AD988A1E08BF79009D9A4C /* Info.plist */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		D3AD989F1E08CAE0009D9A4C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D3AD98A01E08CAE5009D9A4C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		D3AD98A11E08CB05009D9A4C /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				D3AD98A21E08CB0B009D9A4C /* Imagens */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		D3AD98A21E08CB0B009D9A4C /* Imagens */ = {
+			isa = PBXGroup;
+			children = (
+				D3AD98851E08BF79009D9A4C /* Assets.xcassets */,
+			);
+			name = Imagens;
+			sourceTree = "<group>";
+		};
+		D3AD98A31E08CC4C009D9A4C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D3AD98821E08BF79009D9A4C /* Main.storyboard */,
+				D3AD98871E08BF79009D9A4C /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		D3AD98A41E08CC5D009D9A4C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D3AD98801E08BF79009D9A4C /* ViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -540,6 +596,7 @@
 				D3AD989A1E08BF79009D9A4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3AD989B1E08BF79009D9A4C /* Build configuration list for PBXNativeTarget "Assignment4UITests" */ = {
 			isa = XCConfigurationList;
@@ -548,6 +605,7 @@
 				D3AD989D1E08BF79009D9A4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
